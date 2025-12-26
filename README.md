@@ -29,6 +29,7 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 # PROGRAM :
+~~~
  <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -177,7 +178,8 @@ from mathapp import views
 
 urlpatterns = [
     path('', views.lamp_calculator, name='lamp_calculator'),  
-]  
+]
+~~~ 
 
 # SERVER SIDE PROCESSING:
 <img width="857" height="509" alt="image" src="https://github.com/user-attachments/assets/e6cab12f-2608-4382-8a6c-e4ea66ad9b0e" />
